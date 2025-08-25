@@ -83,5 +83,5 @@ to_save = {
     'model': best_model,
     'threshold': 0.3051
 }
-joblib.dump(to_save, 'models/heart_model_threshold.pkl')
-joblib.dump(list(X_train.columns), "models/best_model_feature_list.pkl")
+joblib.dump(to_save, 'heart_model_threshold.pkl')
+joblib.dump(list(X_train.columns), "best_model_feature_list.pkl")
